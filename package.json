@@ -1,0 +1,22 @@
+{
+  "name": "labb-6-johan",
+  "version": "1.0.0",
+  "description": "tets labb",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axel-Heinonen/labb-6-JOHAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axel-Heinonen/labb-6-JOHAN/issues"
+  },
+  "homepage": "https://github.com/Axel-Heinonen/labb-6-JOHAN#readme"
+}
