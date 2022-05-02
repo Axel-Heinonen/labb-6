@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Axel-Heinonen/labb-6-JOHAN/issues"
   },
-  "homepage": "https://github.com/Axel-Heinonen/labb-6-JOHAN#readme"
+  "homepage": "https://github.com/Axel-Heinonen/labb-6-JOHAN#readme",
+  "dependencies": {
+    "underscore": "^1.13.3"
+  }
 }
