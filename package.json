@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/Axel-Heinonen/labb-6-JOHAN#readme",
   "dependencies": {
+    "geckodriver": "^3.0.1",
+    "jest": "^28.0.3",
+    "selenium-webdriver": "^4.1.2",
     "underscore": "^1.13.3"
   },
   "devDependencies": {
