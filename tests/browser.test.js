@@ -63,3 +63,4 @@ test ('"Kiwi" should now be removed and stack containing only "Bananer"' , async
     expect(stack).toEqual("Bananer");
 });
 
+
