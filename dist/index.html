@@ -3,13 +3,24 @@
     <head>
         <meta charset="utf-8">
         <script type="text/javascript" src="bundle.js"></script>
+        <link rel="stylesheet" href="style.css">
+    
         <title>En stack</title>
     </head>
     <body>
-        <h1>Här kan vi leka med en stack</h1>
-        Stacken: <span id="top_of_stack">n/a</span><br>
-        <button type="button" name="peek" id="peek">Vad finns överst på stacken?</button>
-        <button type="button" name="pop" id="pop">Poppa stacken!</button>
-        <button type="button" name="push" id="push">Pusha till stacken</button>
+            <button type="button"  name="darkModeBtn" id="darkModeBtn">Bespara mina ögon från denna ljusa bakgrund</button>
+            <h1>Här kan vi leka med en stack</h1>
+            Stacken: <span id="top_of_stack">n/a</span><br>
+            <button type="button" name="peek" class="btn" id="peek">Vad finns överst på stacken?</button>
+            <button type="button" name="pop" class="btn" id="pop">Poppa stacken!</button>
+            <button type="button" name="push" class="btn" id="push">Pusha till stacken</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script>
+                $("#darkModeBtn").click(function(){
+                    $("body").addClass("darkmode");
+            });               
+        </script>
     </body>
 </html>
