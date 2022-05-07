@@ -25,5 +25,5 @@ test('if item in stack is removed', () => {
 
     stack.pop("dig");
     expect(stack.peek()).toBeDefined();
-    expect(stack.peek()).toBe("dig"); 
+    expect(stack.peek()).toBe("på"); 
 });

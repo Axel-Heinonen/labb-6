@@ -58,8 +58,8 @@ describe('Clicking "Pop" should then remove Kiwi from stack', () => {
 	});
 });
 
-test ('"Kiwi" should now be removed and stack containing only "Bananer"' , async () =>{
+test ('"Bananer" should now be removed and stack containing only "Kiwi"' , async () =>{
     let stack = await driver.findElement(By.id('top_of_stack')).getText();
-    expect(stack).toEqual("Bananer");
+    expect(stack).toEqual("Kiwi");
 });
 
