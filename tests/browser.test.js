@@ -11,12 +11,12 @@ console.log(fileUnderTest);
     driver = await new Builder().forBrowser('firefox').build();
     await driver.get(fileUnderTest);
 });
-/*
+
 // Allra sist avslutar vi Firefox igen
 afterAll(async() => {
     await driver.quit();
 }, defaultTimeout);
-*/
+
 
 test('The stack should be empty in the beginning', async () => {
 	let stack = await driver.findElement(By.id('top_of_stack')).getText();
